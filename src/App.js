@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
 
-const socket = io.connect("httpS://PATEL96.github.io/client");
+const socket = io.connect("https://PATEL96.github.io/client/index.js");
 
 function App() {
   const [username, setUsername] = useState("");
