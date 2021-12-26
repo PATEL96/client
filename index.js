@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://PATEL96.github.io/client" || "http://localhost:3000"],
+    origin: "https://PATEL96.github.io/client",
     methods: ["GET", "POST"],
   },
 });
